@@ -22,7 +22,7 @@ session_start();
                 <img src="/img/logo.png" alt="logo" class="w-[200px] px-4">
             </a>
             <!-- directorios -->
-            <ul class="flex gap-6 text-[15px]">
+            <ul class="flex gap-5 text-[15px]">
                 <li>
                     <a href="">Pagina principal</a>
                 </li>
@@ -45,6 +45,7 @@ session_start();
             </div>
             <!-- perfil y activador del dropdown -->
             <div id="opendrop" class="h-full flex items-center pr-8 gap-2 cursor-pointer">
+                <!-- perfil name -->
                 <div class="bg-gray-200 rounded-3xl p-2 px-3">
                     <h4>JC</h4>
                 </div>
@@ -88,8 +89,8 @@ session_start();
         </div>
     </nav>
 
-    <div class="bg-slate-200 pt-[100px] px-[150px]">
-        <h2 class="text-3xl font-bold">Mis Horas de servicio</h2>
+    <div class="bg-slate-200 pt-[100px] px-[110px]">
+        <h2 class="text-3xl font-bold pb-4">Mis Horas de servicio</h2>
         <!-- aqui puedes poner la tabla con la informacion -->
 
     </div>
