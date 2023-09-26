@@ -15,7 +15,8 @@ if ($resultado['contrasena'] == $contrasena) {
     $_SESSION['contrasena'] = $resultado['contrasena'];
     $_SESSION['nombre'] = $resultado['nombre'];
 
-    header("Location: ../dashboard/dashboard.php");
+    header("Location:  ../dashboard/dashboard.php");
+    
 } else if ($resultado['contrasena'] <> $contrasena) {
     echo "Usuario o contraseña errados";
     die();

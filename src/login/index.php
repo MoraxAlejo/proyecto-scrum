@@ -20,7 +20,7 @@ require_once "../conexiondb.php"
       <section class="pr-4 flex flex-col items-center">
         <img src="/img/logo.png" alt="logo" class="w-[330px]">
 
-        <form action="/actions/validation.php" method="post" class="flex flex-col gap-5 items-center">
+        <form action="./validation.php" method="post" class="flex flex-col gap-5 items-center">
 
           <input type="text" id="correo" class="mt-2 bg-gray-50 border border-slate-600 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-[300px] p-3 " placeholder="Nombre de usuario">
 
