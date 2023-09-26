@@ -1,3 +1,7 @@
+<?php 
+require_once "../conexiondb.php"
+?>
+
 <!doctype html>
 <html>
 
@@ -16,9 +20,9 @@
       <section class="pr-4 flex flex-col items-center">
         <img src="/img/logo.png" alt="logo" class="w-[330px]">
 
-        <form action="./loginAction.php" method="" class="flex flex-col gap-5 items-center">
+        <form action="/actions/validation.php" method="post" class="flex flex-col gap-5 items-center">
 
-          <input type="text" id="name" class="mt-2 bg-gray-50 border border-slate-600 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-[300px] p-3 " placeholder="Nombre de usuario">
+          <input type="text" id="correo" class="mt-2 bg-gray-50 border border-slate-600 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-[300px] p-3 " placeholder="Nombre de usuario">
 
           <input type="password" id="contrasena" class="bg-gray-50 border border-gray-600 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500  w-[300px] p-3 " placeholder="Contraseña">
 
@@ -39,7 +43,7 @@
         <div class="flex gap-6 pr-2">
           <a href="#" class="text-blue-800">Español - Internacional (es)</a>
           <div class="flex">
-            <img width="24" height="24" src="https://img.icons8.com/material-rounded/24/000000/help.png" alt="help" />
+            
             <a href="#" class="w-[60px] text-blue-800">Aviso de Cookies</a>
           </div>
         </div>
