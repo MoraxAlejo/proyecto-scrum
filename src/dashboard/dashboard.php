@@ -90,7 +90,7 @@ session_start();
     </nav>
 
     <div class="bg-slate-200 pt-[100px] px-[110px]">
-        <h2 class="text-3xl font-bold pb-4">Mis Horas de servicio</h2>
+        <h2 class="text-3xl font-bold pb-4">Mis Horas de servicio <?php echo $_SESSION['nombre'] . ' ' . $_SESSION['apellido']?> </h2>
         <!-- aqui puedes poner la tabla con la informacion -->
 
     </div>
